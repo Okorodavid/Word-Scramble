@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Scramble Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="words.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="game-container">
+        <h3>Word Scramble</h3>
+        <div class="act-container">
+            <br><h4 class="word"></h4>
+            <div class="Details">
+                <p class="hint">Hint: <span></span></p>
+                <p class="time">Time Left: <span><b>30</b>s</span></p>
+            </div>
+        </div>
+        <input type="text"spellcheck="false" id="tspace" placeholder="Enter a valid word">
+        <div class="btn">
+            <button class="btn1">Refresh Word</button>
+            <button class="btn2">Submit</button>
+        </div>
+    </div>
+    
+</body>
+</html>
